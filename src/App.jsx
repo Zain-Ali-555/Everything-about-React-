@@ -7,7 +7,7 @@ const App = () => {
           <li>Explore</li>
           <li>Plans</li>
           <li className="name">MalikZain555</li>
-          <li>Log in</li>
+          <li>Login</li>
           <li>Start for free</li>
         </ul>
       </nav>
