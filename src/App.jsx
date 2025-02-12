@@ -1,16 +1,13 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import MainContent from "./components/MainContent";
+
 const App = () => {
-  
   return (
     <>
-      <nav>
-        <ul>
-          <li>Explore</li>
-          <li>Plans</li>
-          <li className="name">MalikZain555</li>
-          <li>Login</li>
-          <li>Start for free</li>
-        </ul>
-      </nav>
+      <Header />
+      <MainContent />
+      <Footer />
     </>
   );
 };
