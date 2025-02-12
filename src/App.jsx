@@ -1,13 +1,11 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
+import Greeting from "./components/Greeting";
+import Product from "./components/Product";
 
 const App = () => {
   return (
     <>
-      <Header />
-      <MainContent />
-      <Footer />
+      <Greeting />
+      <Product />
     </>
   );
 };
