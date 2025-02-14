@@ -1,13 +1,9 @@
-import Greeting from "./components/Greeting";
-import Product from "./components/Product";
+import React from 'react'
 
 const App = () => {
   return (
-    <>
-      <Greeting />
-      <Product />
-    </>
-  );
-};
+    <div>App</div>
+  )
+}
 
-export default App;
+export default App
