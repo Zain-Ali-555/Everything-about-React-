@@ -1,22 +1,31 @@
-import React from "react";
+import { FaBeer } from "react-icons/fa";
 
 const App = () => {
-  const temperature = (temp) => {
-    if (temp < 15) return <h1>Its cold outside.</h1>;
-    if (temp >= 15 && temp <= 25) return <h1>Its nice outside.</h1>;
-    if (temp > 25) return <h1>Its hot outside.</h1>;
+  let style = {
+    backgroundColor: "lightgrey",
+    padding: "15px",
+    borderRadius: "8px",
+    margin: "1rem 0",
+    color: "black",
   };
-
-  const userStatus = (isAdmin, LoggedIn) => {
-    if (isAdmin == true && LoggedIn == true) return <h1>Welcome Admin.</h1>;
-    if (isAdmin == false && LoggedIn == true) return <h1>Welcome User.</h1>;
-  };
-
   return (
     <>
+      <div
+        style={{
+          backgroundColor: "lightblue",
+          padding: "20px",
+          borderRadius: "10px",
+          color: "darkblue",
+        }}
+      >
+        Welcome to Our Website
+      </div>
+      <div style={style}>Welcome to Our Website</div>
       <div>
-        <h1>{userStatus(true, true)}</h1>
-        <h5>{temperature(15)}</h5>
+        <h1>
+          React Icons Practice_
+          <FaBeer style={{ color: "gold", fontSize: "30px" }} />
+        </h1>
       </div>
     </>
   );
